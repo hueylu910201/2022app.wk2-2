@@ -11,11 +11,12 @@ const Header=()=>{
 const styles=StyleSheet.create({
     header:{
         width: '100%',
-        height: 72,
+        height: 80,
+        marginTop:30,
         justifyContent: 'center',
         alignItems: 'center',
-        paddingTop: 40,
-        backgroundColor: '#fff',
+        paddingTop: 10,
+        backgroundColor: '#bfd8ff',
         shadowColor: '#484848',
         shadowOffset: {width: 0, height: 8},
         shadowOpacity: 0.1,
@@ -23,7 +24,8 @@ const styles=StyleSheet.create({
         elevation: 10, //Android only
     },
     headerText:{
-        fontSize:20,
+        fontSize:28,
+        fontWeight:"bold"
     },
 });
 export default Header;
